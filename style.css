@@ -448,21 +448,44 @@ p {
     top: 0;
 }
 
-@media all and (max-width: 498px) {
-    body {
-        display: flex;
-        flex-direction: column;
+@media screen and (max-width: 498px) {
+    header div nav ul {
+        flex-wrap: wrap;
+        width: 100%;
+        
+        
+
     }
 }
 
-@media all and (max-width: 490px) {
-    article, main {
+@media screen and (max-width: 498px) {
+    main article div {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 498px) {
+    footer, .footer, .footer-container, .money ,.copyrigth {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 498px) {
+    main section form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         width: 100%;
     }
 }
- 
-
 
 
 

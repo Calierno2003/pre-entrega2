@@ -1,0 +1,49 @@
+.contact-container {
+    width: 1880px;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-name {
+    width: 173px;
+    height: 45px;
+
+    display: flex;
+    justify-content: start;
+    
+}
+
+.contact-email {
+    width: 173px;
+    height: 45px;
+
+    display: flex;
+    justify-content: end;
+    
+    
+}
+
+.contact-phone-number {
+    width: 351px;
+    height: 45px;
+
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.contact-comment textarea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.contact-comment button {
+    color: #CEC6BD;
+    display: flex;
+    justify-content: end;
+}

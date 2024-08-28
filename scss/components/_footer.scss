@@ -1,0 +1,60 @@
+.resources-container {
+
+    justify-content: center;
+    align-items: end;
+}
+
+.resources h3 {
+    display: flex;
+    justify-content: center;
+    color: #CEC6BD;
+    font-family: "Quantico", sans-serif;
+}
+.resources-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    padding-top: 60px;
+
+    
+}
+.resources-nav ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+}
+.resources-nav ul li a {
+    color: #CEC6BD;
+    font-size: 0.8em;
+    text-decoration: underline;
+    font-family: "Quantico", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+
+}
+
+.resouces-email {
+    display: flex;
+    justify-content: center;
+    font-family: "Quantico", sans-serif;
+    color: #CEC6BD;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.copyrigth {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "Quantico", sans-serif;
+}

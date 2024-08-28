@@ -1,0 +1,72 @@
+/* Quantico, sans-serif */
+//base
+@import 'base/reset';
+@import 'base/vars';
+//components
+@import 'components/navbar';
+@import 'components/footer';
+//layout
+@import 'layout/index';
+@import 'layout/contacto';
+
+
+
+
+
+.p1 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 150px;
+}
+
+.email {
+    width: 1880px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.email-text {
+    width: 358px;
+    height: 45px;
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+h2 {
+    font-family: "Quantico", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 350px;
+    width: 300px;
+    color: #CEC6BD;
+}
+
+.parrafo-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.button-shop {
+    display: flex;
+    justify-content: center;
+}
+
+.button1 {
+    background-color: #F1CC98;
+    width: 135px;
+    height: 47px;
+    font-family: "SF Mono", Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: medium;
+    border: none;
+}
+
+
+
+

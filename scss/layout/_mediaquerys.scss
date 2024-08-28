@@ -1,0 +1,26 @@
+@media screen and (max-width: 498px) {
+    header div nav ul {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    main article div {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer, .footer, .footer-container, .money ,.copyrigth {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main, .main-container, section, .section-container form div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}

@@ -1,12 +1,13 @@
 body {
     width: 1880px;
+    height: 1050px;
     background-color: #000;
 }
 
 .main-container {
     color:#fff;
     font-family: "SF Mono", Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    
+
 }
 
 .merchs {
@@ -17,13 +18,12 @@ body {
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
+    
+    a {
+        text-decoration: none;
+    }
 
 }
-
-.merchs a {
-    text-decoration: none;
-}
-
 
 .div-width {
     width: 1100px;
@@ -71,25 +71,27 @@ body {
     grid-row: 1/7;
     border: 1px solid #0B0A0A;
     justify-content: end;
-}
-
-.grid-text h1 {
+    
+    h1 {
     color: #CEC6BD;
     display: flex;
     justify-content: center;
     font-family: "Quantico", sans-serif;
 }
+}
+
 
 .size {
     display: flex;
     justify-content: center;
     gap: 20px;
-}
-
-.size button {
+    
+    button {
     background-color: #F1CC98;
     border-radius: 5px 5px 5px 5px;
     width: 50px;
     height: 20px;
 }
+}
+
 

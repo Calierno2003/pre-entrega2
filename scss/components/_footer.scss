@@ -1,5 +1,5 @@
 .resources-container {
-
+    display: flex;
     justify-content: center;
     align-items: end;
 }
@@ -16,30 +16,26 @@
     align-items: center;
     height: 20px;
     padding-top: 60px;
-
-    
-}
-.resources-nav ul {
-
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-
-}
-.resources-nav ul li a {
-    color: #CEC6BD;
-    font-size: 0.8em;
-    text-decoration: underline;
-    font-family: "Quantico", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    display: flex;
-    justify-content: center;
-
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }    
+    ul li p {
+        color: #CEC6BD;
+        font-size: 0.8em;
+        text-decoration: underline;
+        font-family: "Quantico", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+        display: flex;
+        justify-content: center;
 }
 
+
+}
 .resouces-email {
     display: flex;
     justify-content: center;
@@ -58,3 +54,4 @@
     align-items: flex-start;
     font-family: "Quantico", sans-serif;
 }
+

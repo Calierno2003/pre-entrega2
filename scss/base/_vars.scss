@@ -1,0 +1,16 @@
+$color-parrafo: #CEC6BD;
+$font-parrafo: "SF Mono", Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-h: "Quantico", sans-serif;
+
+
+h4, p {
+    color: $color-parrafo;
+}
+
+p {
+    font-family: $font-parrafo;
+}
+
+h4 {
+    font-family: $font-h;
+}

@@ -1,41 +1,37 @@
 .cart {
     width: 1880px;
-    height: px;
     padding: 50px;
-    display: flex;
-    justify-content: center;
+    @include display(flex, center, center);
+    
+    h3 {
+        color: #CEC6BD;
+        font-size: 2.5em;
 }
-
-.cart h3 {
-    color: #CEC6BD;
-    font-size: 2.5em;
-
-
+    a button{
+        width: 215.2px;
+        height: 45px;    
 }
-
-.cart a button{
-    width: 215.2px;
-    height: 45px;    
+    button {
+        background-color: #F1CC98;
+        color: black;
+        border: none;
 }
-.cart button {
-    background-color: #F1CC98;
-    color: black;
-    border: none;
 }
-
 .cart-button {
-    display: flex;
-    justify-content: center;
+    @include display();
+    span {
+        color: #CEC6BD;
+        font-size: 20px;
+        font-family: "SF Mono", Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
+        border: 1px solid white;
+        line-height: 18px;
+        vertical-align: baseline;
+        letter-spacing: 1px;
+        word-spacing: 0px;
+}
 }
 
-.cart-button span {
-    color: #CEC6BD;
-    font-size: 20px;
-    font-family: "SF Mono", Menlo, Consolas, Monaco, "Liberation Mono", "Lucida Console", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
-    border: 1px solid white;
-    line-height: 18px;
-    vertical-align: baseline;
-    letter-spacing: 1px;
-    word-spacing: 0px;
+.cart-img img {
+    @include display(flex, center, center);
 }
 

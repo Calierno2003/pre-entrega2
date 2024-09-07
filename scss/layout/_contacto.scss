@@ -1,7 +1,7 @@
 .contact-container {
     width: 1880px;
     height: 500px;
-
+    padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,4 +46,8 @@
     color: #CEC6BD;
     display: flex;
     justify-content: end;
+}
+
+.contact-m {
+    margin: 20px;
 }

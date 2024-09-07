@@ -1,0 +1,32 @@
+@mixin heigth ($min, $max) {
+    min-height: $min;
+    max-height: $max;
+}
+
+@mixin display ($display, $justify, $align) {
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.resources-conteiner, .resources h3, .resources-nav, .resouces-email, .footer, .copyrigth {
+    @include height(100vh, 100%)
+}
+
+
+    
+
+
+
+
+
+// @mixin flex($direction, $align, $justify, $gap) {
+//     flex-direction: $direction;
+//     align-items: $align;
+//     justify-content: $justify;
+//     gap: $gap;
+// }
+
+// .e-g {
+//     @include flex(column, center, space-between, 10px)
+// }    

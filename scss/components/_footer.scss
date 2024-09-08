@@ -1,7 +1,14 @@
 .resources-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: end;
+    min-height: 100vh;
+    max-height: 100%;
+}
+.resources-container2 {
+    display: flex;
+    min-height: 100vh;
+    max-height: 100%;
 }
 
 .resources h3 {
@@ -34,6 +41,13 @@
         justify-content: center;
 }
 
+.item-dropdown {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 100%;
+}
+
 
 }
 .resouces-email {
@@ -46,12 +60,14 @@
 .footer {
     display: flex;
     justify-content: flex-start;
+    min-height: 20vh;
+    max-height: 100%;
 }
 
 .copyrigth {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: start;
+    align-items: flex-end;
     font-family: "Quantico", sans-serif;
 }
 

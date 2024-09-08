@@ -9,11 +9,13 @@
     align-items: $align;
 }
 
-.resources-conteiner, .resources h3, .resources-nav, .resouces-email, .footer, .copyrigth {
-    @include height(100vh, 100%)
-}
+// .resources-conteiner, .resources h3, .resources-nav, .resouces-email, .footer, .copyrigth {
+//     @include height(100vh, 100%)
+// }
 
-
+// .footer-container, .resources-container {
+//     @include heigth(100vh, 100%)
+// }
     
 
 

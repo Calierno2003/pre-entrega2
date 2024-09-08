@@ -28,6 +28,9 @@
                 <div class="logo">
                     <span class="logo"><img src="../multimedia/utopia-logo.jpg"  alt="logo"></span>
                 </div>
+                <div class="logo-mq">
+                  <h2>UTOPIA</h2>
+                </div>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       USD $ | Argentina 
@@ -53,61 +56,37 @@
     </header>
     <h2>Contact</h2>
     <main class="main-container contact-m">
-        <form class="row g-2">
-            <div class="col-md-3">
-              <label for="inputEmail4" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail4">
-            </div>
-            <div class="col-md-3">
-              <label for="inputPassword4" class="form-label">Password</label>
-              <input type="password" class="form-control" id="inputPassword4">
-            </div>
-            <div class="col-6">
-              <label for="inputAddress" class="form-label">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="col-6">
-              <label for="inputAddress2" class="form-label">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-            </div>
-            <div class="col-md-3">
-              <label for="inputCity" class="form-label">City</label>
-              <input type="text" class="form-control" id="inputCity">
-            </div>
-            <div class="col-md-2">
-              <label for="inputState" class="form-label">State</label>
-              <select id="inputState" class="form-select">
-                <option selected>Choose...</option>
-                <option>...</option>
-              </select>
-            </div>
-            <div class="col-md-1">
-              <label for="inputZip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="inputZip">
-            </div>
-            <div class="col-6">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Check me out
-                </label>
-              </div>
-            </div>
-            <div class="col-6">
-              <button type="submit" class="btn btn-primary">Sign in</button>
-            </div>
-          </form>
-        <resouces class="resources-container">
+      <form class="bs-black">
+        <div class="sm-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="sm-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="sm-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <div class="sm-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>    
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>      
+      <resouces class="resources-container">
             <div class="resources">
                 <h3>RESOURCES</h3>
                 <nav class="resources-nav">
                     <ul>
-                        <li><a href="search">SEARCH</a></li>
-                        <li><a href="contact-info">CONTACT INFO</a></li>
-                        <li><a href="privacy-policy">PRIVACY POLICY</a></li>
-                        <li><a href="term-of-service">TERM OF SERVICE</a></li>
-                        <li><a href="advisory">ADVISORY</a></li>
-                    </ul>
+                      <li><p>SEARCH</p></li>
+                      <li><p>CONTACT INFO</p></li>
+                      <li><p>PRIVACY POLICY</p></li>
+                      <li><p>TERM OF SERVICE</p></li>
+                      <li><p>ADVISORY</p></li>
+                  </ul>
                 </nav>
             </div>
             <div class="resouces-email">
@@ -118,11 +97,16 @@
         </resouces>
     <footer class="footer-container">
         <div class="footer">
-            <h4>Coutry/region</h4>
-            <div class="money">
-                <button type="button">USD $ | Argentina</button>
-            </div>
-        </div>    
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              USD $ | Argentina 
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">EUR € | Europa</a></li>
+              <li><a class="dropdown-item" href="#">EUR € | Europa</a></li>
+              <li><a class="dropdown-item" href="#">EUR € | Europa</a></li>
+            </ul>
+          </li>
         <div class="copyrigth">
             <p>© 2024, <a href="../index.html">Travis Scott - UTOPIA & Circus Maximus Tour Merchandise</a>
             </p>

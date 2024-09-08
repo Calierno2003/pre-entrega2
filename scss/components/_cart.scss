@@ -1,11 +1,12 @@
 .cart {
-    width: 1880px;
-    padding: 50px;
-    @include display(flex, center, center);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     h3 {
         color: #CEC6BD;
         font-size: 2.5em;
+        @include display(flex, center, center);
 }
     a button{
         width: 215.2px;
@@ -18,7 +19,7 @@
 }
 }
 .cart-button {
-    @include display();
+    @include display(flex, center, center);
     span {
         color: #CEC6BD;
         font-size: 20px;

@@ -443,13 +443,30 @@ body {
   }
 }
 @media screen and (max-width: 498px) {
-  .merch, .merchs, .merch-1, .merch-2, .merch-3, .merch-4, .merch-5, .poster-1, .poster-2 {
+  .merch, article .merchs, .merch-1, .merch-2, .merch-3, .merch-4, .merch-5, .poster-1, .poster-2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
+  }
+  .form-mq {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 498px) {
+  .section-container {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
   }
 }
 .p1 {
